@@ -1,78 +1,79 @@
 // _variables.scss
 
-$scale:						16px;
-$transition:				0.15s;
+$scale:								16px;
+$transition:						0.15s;
 
 /** Typography **/
 
-$font-stack:				"Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
-$font-stack-serif:       	Georgia, "Times New Roman", Times, serif;
-$font-stack-monospace:   	Menlo, Monaco, Consolas, "Courier New", monospace;
+$font-stack:						"Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+$font-stack-serif:       			Georgia, "Times New Roman", Times, serif;
+$font-stack-monospace:   			Menlo, Monaco, Consolas, "Courier New", monospace;
 
-$font-size-base:			$scale;
-$font-size-large:         	2rem;
-$font-size-small:         	.875rem;
-$font-size-body:			$font-size-small;
+$font-size-base:					$scale;
+$font-size-large:         			2rem;
+$font-size-small:         			.875rem;
+$font-size-body:					$font-size-small;
 
-$line-height-base:        	1.3rem;
-$line-height-large:         $line-height-base * 1.2;
-$line-height-small:         $line-height-base * .8;
+$line-height-base:        			1.3rem;
+$line-height-large:         		$line-height-base * 1.2;
+$line-height-small:         		$line-height-base * .8;
 
-$font-size-h1:            	floor(($font-size-base * 2.6));
-$font-size-h2:            	floor(($font-size-base * 2.15));
-$font-size-h3:            	ceil(($font-size-base * 1.7));
-$font-size-h4:            	ceil(($font-size-base * 1.25));
-$font-size-h5:            	$font-size-base;
-$font-size-h6:            	ceil(($font-size-base * 0.85));
+$font-size-h1:            			floor(($font-size-base * 2.6));
+$font-size-h2:            			floor(($font-size-base * 2.15));
+$font-size-h3:            			ceil(($font-size-base * 1.7));
+$font-size-h4:            			ceil(($font-size-base * 1.25));
+$font-size-h5:            			$font-size-base;
+$font-size-h6:            			ceil(($font-size-base * 0.85));
 
-$headings-font-family:    	inherit;
-$headings-font-weight:    	500;
-$headings-line-height:    	1.1;
-$headings-color:          	inherit;
+$headings-font-family:    			inherit;
+$headings-font-weight:    			500;
+$headings-line-height:    			1.1;
+$headings-color:          			inherit;
 
 
 /** Colors **/
 //Lights & Darks
-$black:						#000000;
-$gray-middle:				#5E5E5E;
-$gray-extra-dark:			#2f302f;
-$gray-dark:					#5a5a5a;
-$gray-light:				#939393;
-$gray-extra-light:			#f3f3f3;
-$white:						#ffffff;
+$color-black:						#000000;
+$color-gray-middle:					#999999;
+$color-gray-extra-dark:				darken($color-gray-middle, 35%);
+$color-gray-dark:					darken($color-gray-middle, 15%);
+$color-gray-light:					lighten($color-gray-middle, 15%);
+$color-gray-extra-light:			lighten($color-gray-middle, 35%);
+$color-white:						#ffffff;
 
 //CTA Colors
-$cta-color:					#d08828;
-$cta-color-hover:			#be7c2a;
+$color-cta:							#d08828;
+$color-cta-hover:					#be7c2a;
 
 //Brand Colors
-$brand-primary:				#2f302f;
-$color-brand-secondary:		#043c5b;
-$color-brand-tertiary:		#80bcd6;
-$blue:						#80bcd6;
-$blue-dark:					#043c5b;
-$blue-light:				#D0EDFF;
+$color-brand-primary:				#2f302f;
+$color-brand-secondary:				#043c5b;
+$color-brand-tertiary:				#80bcd6;
+$color-brand-auxiliary-1:			#80bcd6;
+$color-brand-auxiliary-2:			#80bcd6;
+$color-brand-auxiliary-3:			#80bcd6;
+
 
 //Bootstrap Modifier Colors
-$brand-success:         	#5cb85c;
-$brand-info:            	#5bc0de;
-$brand-warning:         	#f0ad4e;
-$brand-danger:         		#d9534f;
+$brand-success:         			#5cb85c;
+$brand-info:            			#5bc0de;
+$brand-warning:         			#f0ad4e;
+$brand-danger:         				#d9534f;
 
 
-$body-bg:							$white;
-$text-color:						$gray-middle;
-$link-color:						$cta-color;
-$link-hover-color:					$cta-color-hover;
+$body-bg:							$color-white;
+$text-color:						$color-gray-middle;
+$link-color:						$color-cta;
+$link-hover-color:					$color-cta-hover;
 $link-hover-decoration:				none;
 
 $component-active-color:    		#fff;
 $component-active-bg:       		$brand-primary;
 
 
-$border-radius-base:        .125rem;
-$border-radius-large:       $border-radius-base * 2;
-$border-radius-small:       $border-radius-base * .5;
+$border-radius-base:        		.125rem;
+$border-radius-large:       		$border-radius-base * 2;
+$border-radius-small:       		$border-radius-base * .5;
 
 
 /** Buttons **/
@@ -88,32 +89,32 @@ $btn-padding-extra-small:			.125rem .25rem;
 
 
 
-$btn-primary-color:              	$black;
-$btn-primary-bg:                 	$cta-color;
-$btn-primary-border:             	$cta-color;
-$btn-primary-color-hover:	     	$black;
-$btn-primary-bg-hover:				$cta-color-hover;
-$btn-primary-border-hover:			$cta-color-hover;
+$btn-primary-color:              	$color-black;
+$btn-primary-bg:                 	$color-cta;
+$btn-primary-border:             	$color-cta;
+$btn-primary-color-hover:	     	$color-black;
+$btn-primary-bg-hover:				$color-cta-hover;
+$btn-primary-border-hover:			$color-cta-hover;
 
-$btn-secondary-color:              	$cta-color;
+$btn-secondary-color:              	$color-cta;
 $btn-secondary-bg:                 	$btn-bg-ghost;
-$btn-secondary-border:             	$cta-color;
-$btn-secondary-color-hover:	     	$black;
-$btn-secondary-bg-hover:			$cta-color-hover;
-$btn-secondary-border-hover:		$cta-color-hover;
+$btn-secondary-border:             	$color-cta;
+$btn-secondary-color-hover:	     	$color-black;
+$btn-secondary-bg-hover:			$color-cta-hover;
+$btn-secondary-border-hover:		$color-cta-hover;
 
-$btn-tertiary-color:              	$cta-color;
+$btn-tertiary-color:              	$color-cta;
 $btn-tertiary-bg:                 	$btn-bg-ghost;
 $btn-tertiary-border:             	$btn-tertiary-color;
-$btn-tertiary-color-hover:	     	$white;
+$btn-tertiary-color-hover:	     	$color-white;
 $btn-tertiary-bg-hover:				$btn-tertiary-color;
 $btn-tertiary-border-hover:			$btn-tertiary-color;
 
 
 //Bootstrap Button Styles
-$btn-default-color:              	$cta-color;
+$btn-default-color:              	$color-cta;
 $btn-default-bg:                 	transparent;
-$btn-default-border:             	$cta-color;
+$btn-default-border:             	$color-cta;
 
 $btn-success-color:              	#fff;
 $btn-success-bg:                 	$brand-success;
@@ -131,7 +132,7 @@ $btn-danger-color:               	#fff;
 $btn-danger-bg:                 	$brand-danger;
 $btn-danger-border:              	darken($btn-danger-bg, 5%);
 
-$btn-link-disabled-color:        	$gray-light;
+$btn-link-disabled-color:        	$color-gray-light;
 
 
 
@@ -190,9 +191,9 @@ $padding-xs-horizontal:     .5rem;
 /** Breadcrumbs **/
 $breadcrumb-padding-vertical:   8px;
 $breadcrumb-padding-horizontal: 15px;
-$breadcrumb-bg:                 $gray-extra-light;
+$breadcrumb-bg:                 $color-gray-extra-light;
 $breadcrumb-color:              #ccc;
-$breadcrumb-active-color:       $gray-light;
+$breadcrumb-active-color:       $color-gray-light;
 
 
 /** Tables **/
@@ -207,9 +208,9 @@ $table-border-color:            #ddd;
 
 
 $input-bg:                       #fff;
-$input-bg-disabled:              $gray-light;
+$input-bg-disabled:              $color-gray-light;
 
-$input-color:                    $gray-middle;
+$input-color:                    $color-gray-middle;
 $input-border:                   #ccc;
 
 $input-border-radius:            $border-radius-base;
@@ -224,10 +225,10 @@ $input-color-placeholder:        #999;
 //$input-height-large:             (ceil($font-size-large * $line-height-large) + ($padding-large-vertical * 2) + .125rem);
 //$input-height-small:             (floor($font-size-small * $line-height-small) + ($padding-small-vertical * 2) + .125rem);
 
-$legend-color:                   $gray-middle;
+$legend-color:                   $color-gray-middle;
 $legend-border-color:            #e5e5e5;
 
-$input-group-addon-bg:           $gray-light;
+$input-group-addon-bg:           $color-gray-light;
 $input-group-addon-border-color: $input-border;
 
 $cursor-disabled:                not-allowed;
@@ -255,9 +256,9 @@ $dropdown-fallback-border:       #ccc;
 $dropdown-divider-bg:            #e5e5e5;
 
 //** Dropdown link text color.
-$dropdown-link-color:            $gray-middle;
+$dropdown-link-color:            $color-gray-middle;
 //** Hover color for dropdown links.
-$dropdown-link-hover-color:      darken($gray-middle, 5%);
+$dropdown-link-hover-color:      darken($color-gray-middle, 5%);
 //** Hover background for dropdown links.
 $dropdown-link-hover-bg:         #f5f5f5;
 
@@ -267,10 +268,10 @@ $dropdown-link-active-color:     $component-active-color;
 $dropdown-link-active-bg:        $component-active-bg;
 
 //** Disabled dropdown menu item background color.
-$dropdown-link-disabled-color:   $gray-light;
+$dropdown-link-disabled-color:   $color-gray-light;
 
 //** Text color for headers within dropdown menus.
-$dropdown-header-color:          $gray-light;
+$dropdown-header-color:          $color-gray-light;
 
 //** Deprecated `$dropdown-caret-color` as of v3.1.0
 $dropdown-caret-color:           #000;
@@ -403,12 +404,12 @@ $navbar-default-toggle-border-color:       #ddd;
 
 // Inverted navbar
 // Reset inverted navbar basics
-$navbar-inverse-color:                      lighten($gray-light, 15%);
+$navbar-inverse-color:                      lighten($color-gray-light, 15%);
 $navbar-inverse-bg:                         #222;
 $navbar-inverse-border:                     darken($navbar-inverse-bg, 10%);
 
 // Inverted navbar links
-$navbar-inverse-link-color:                 lighten($gray-light, 15%);
+$navbar-inverse-link-color:                 lighten($color-gray-light, 15%);
 $navbar-inverse-link-hover-color:           #fff;
 $navbar-inverse-link-hover-bg:              transparent;
 $navbar-inverse-link-active-color:          $navbar-inverse-link-hover-color;
@@ -433,18 +434,18 @@ $navbar-inverse-toggle-border-color:        #333;
 
 //=== Shared nav styles
 $nav-link-padding:                          10px 15px;
-$nav-link-hover-bg:                         $gray-light;
+$nav-link-hover-bg:                         $color-gray-light;
 
-$nav-disabled-link-color:                   $gray-light;
-$nav-disabled-link-hover-color:             $gray-light;
+$nav-disabled-link-color:                   $color-gray-light;
+$nav-disabled-link-hover-color:             $color-gray-light;
 
 //== Tabs
 $nav-tabs-border-color:                     #ddd;
 
-$nav-tabs-link-hover-border-color:          $gray-light;
+$nav-tabs-link-hover-border-color:          $color-gray-light;
 
 $nav-tabs-active-link-hover-bg:             $body-bg;
-$nav-tabs-active-link-hover-color:          $gray-middle;
+$nav-tabs-active-link-hover-color:          $color-gray-middle;
 $nav-tabs-active-link-hover-border-color:   #ddd;
 
 $nav-tabs-justified-link-border-color:            #ddd;
@@ -465,14 +466,14 @@ $pagination-bg:                        #fff;
 $pagination-border:                    #ddd;
 
 $pagination-hover-color:               $link-hover-color;
-$pagination-hover-bg:                  $gray-light;
+$pagination-hover-bg:                  $color-gray-light;
 $pagination-hover-border:              #ddd;
 
 $pagination-active-color:              #fff;
 $pagination-active-bg:                 $brand-primary;
 $pagination-active-border:             $brand-primary;
 
-$pagination-disabled-color:            $gray-light;
+$pagination-disabled-color:            $color-gray-light;
 $pagination-disabled-bg:               #fff;
 $pagination-disabled-border:           #ddd;
 
@@ -499,7 +500,7 @@ $pager-disabled-color:                 $pagination-disabled-color;
 
 $jumbotron-padding:              30px;
 $jumbotron-color:                inherit;
-$jumbotron-bg:                   $gray-light;
+$jumbotron-bg:                   $color-gray-light;
 $jumbotron-heading-color:        inherit;
 $jumbotron-font-size:            ceil(($font-size-base * 1.5));
 
@@ -577,7 +578,7 @@ $popover-arrow-outer-fallback-color:  darken($popover-fallback-border-color, 20%
 //##
 
 //** Default label background color
-$label-default-bg:            $gray-light;
+$label-default-bg:            $color-gray-light;
 //** Primary label background color
 $label-primary-bg:            $brand-primary;
 //** Success label background color
@@ -699,9 +700,9 @@ $list-group-active-border:      $list-group-active-bg;
 $list-group-active-text-color:  lighten($list-group-active-bg, 40%);
 
 //** Text color of disabled list items
-$list-group-disabled-color:      $gray-light;
+$list-group-disabled-color:      $color-gray-light;
 //** Background color of disabled list items
-$list-group-disabled-bg:         $gray-light;
+$list-group-disabled-bg:         $color-gray-light;
 //** Text color for content within disabled list items
 $list-group-disabled-text-color: $list-group-disabled-color;
 
@@ -724,7 +725,7 @@ $panel-border-radius:         $border-radius-base;
 $panel-inner-border:          #ddd;
 $panel-footer-bg:             #f5f5f5;
 
-$panel-default-text:          $gray-middle;
+$panel-default-text:          $color-gray-middle;
 $panel-default-border:        #ddd;
 $panel-default-heading-bg:    #f5f5f5;
 
@@ -783,7 +784,7 @@ $well-border:                 darken($well-bg, 7%);
 $badge-color:                 #fff;
 //** Linked badge text color on hover
 $badge-link-hover-color:      #fff;
-$badge-bg:                    $gray-light;
+$badge-bg:                    $color-gray-light;
 
 //** Badge text color in active nav link
 $badge-active-color:          $link-color;
@@ -839,7 +840,7 @@ $kbd-color:                   #fff;
 $kbd-bg:                      #333;
 
 $pre-bg:                      #f5f5f5;
-$pre-color:                   $gray-middle;
+$pre-color:                   $color-gray-middle;
 $pre-border-color:            #ccc;
 $pre-scrollable-max-height:   340px;
 
@@ -851,23 +852,23 @@ $pre-scrollable-max-height:   340px;
 //** Horizontal offset for forms and lists.
 $component-offset-horizontal: 180px;
 //** Text muted color
-$text-muted:                  $gray-light;
+$text-muted:                  $color-gray-light;
 //** Abbreviations and acronyms border color
-$abbr-border-color:           $gray-light;
+$abbr-border-color:           $color-gray-light;
 //** Headings small color
-$headings-small-color:        $gray-light;
+$headings-small-color:        $color-gray-light;
 //** Blockquote small color
-$blockquote-small-color:      $gray-light;
+$blockquote-small-color:      $color-gray-light;
 //** Blockquote font size
 $blockquote-font-size:        ($font-size-base * 1.25);
 //** Blockquote border color
-$blockquote-border-color:     $gray-light;
+$blockquote-border-color:     $color-gray-light;
 //** Page header border color
-$page-header-border-color:    $gray-light;
+$page-header-border-color:    $color-gray-light;
 //** Width of horizontal description list titles
 $dl-horizontal-offset:        $component-offset-horizontal;
 //** Horizontal line color.
-$hr-border:                   $gray-light;
+$hr-border:                   $color-gray-light;
 
 
 
