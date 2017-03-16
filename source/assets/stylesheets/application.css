@@ -6181,6 +6181,10 @@ h6 {
   font-size: 14px;
   color: #737373; }
 
+.jumbotron {
+  padding-left: 2rem;
+  padding-right: 2rem; }
+
 .font-characters {
   width: 400px;
   margin-bottom: 0 !important; }
