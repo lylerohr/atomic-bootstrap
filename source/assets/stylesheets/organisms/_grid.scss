@@ -1,0 +1,35 @@
+// _headings.scss
+
+h1,h2,h3,h4,h5,h6 {
+	margin-top: $margin-none;
+}
+
+h1 {
+	font-size: $font-size-h1; 
+	color: $blue-dark;
+}
+
+h2 {
+	font-size: $font-size-h2; 
+	color: $blue-dark;
+}
+	
+h3 {
+	font-size: $font-size-h3; 
+	color: $blue;
+}
+	
+h4 {
+	font-size: $font-size-h4; 
+	color: $gray-dark;
+}
+
+h5 {
+	font-size: $font-size-h5; 
+	color: $gray-dark;
+}
+
+h6 {
+	font-size: $font-size-h6; 
+	color: $gray-dark;
+}
