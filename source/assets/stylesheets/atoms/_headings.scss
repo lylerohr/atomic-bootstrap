@@ -6,30 +6,30 @@ h1,h2,h3,h4,h5,h6 {
 
 h1 {
 	font-size: $font-size-h1; 
-	color: $blue-dark;
+	color: $color-brand-primary;
 }
 
 h2 {
 	font-size: $font-size-h2; 
-	color: $blue-dark;
+	color: $color-brand-secondary;
 }
 	
 h3 {
 	font-size: $font-size-h3; 
-	color: $blue;
+	color: $color-brand-secondary;
 }
 	
 h4 {
 	font-size: $font-size-h4; 
-	color: $gray-dark;
+	color: $color-gray-dark;
 }
 
 h5 {
 	font-size: $font-size-h5; 
-	color: $gray-dark;
+	color: $color-gray-dark;
 }
 
 h6 {
 	font-size: $font-size-h6; 
-	color: $gray-dark;
+	color: $color-gray-dark;
 }
