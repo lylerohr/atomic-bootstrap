@@ -41,18 +41,19 @@ $color-gray-light:					lighten($color-gray-middle, 15%);
 $color-gray-extra-light:			lighten($color-gray-middle, 35%);
 $color-white:						#ffffff;
 
-//CTA Colors
-$color-cta:							#d08828;
-$color-cta-hover:					#be7c2a;
-
 //Brand Colors
-$color-brand-primary:				#2f302f;
-$color-brand-secondary:				#043c5b;
-$color-brand-tertiary:				#80bcd6;
-$color-brand-auxiliary-1:			#80bcd6;
-$color-brand-auxiliary-2:			#80bcd6;
-$color-brand-auxiliary-3:			#80bcd6;
+$color-brand-primary:				#cd453d;
+$color-brand-secondary:				#aeaeae;
+$color-brand-tertiary:				#dad7c2;
+$color-brand-auxiliary-1:			#0e1218;
+$color-brand-auxiliary-2:			lighten($color-brand-auxiliary-1, 10%);
+$color-brand-auxiliary-3:			lighten($color-brand-auxiliary-1, 20%);
 
+//CTA Colors
+$color-cta:							#cd453d;
+$color-cta-hover:					darken($color-cta, 10%);
+$color-cta-secondary:				#cd453d;
+$color-cta-secondar-hover:			darken($color-cta, 10%);
 
 //Bootstrap Modifier Colors
 $brand-success:         			#5cb85c;
@@ -62,9 +63,9 @@ $brand-danger:         				#d9534f;
 
 
 $body-bg:							$color-white;
-$text-color:						$color-gray-middle;
-$link-color:						$color-cta;
-$link-hover-color:					$color-cta-hover;
+$text-color:						$color-gray-dark;
+$link-color:						$color-brand-secondary;
+$link-hover-color:					darken($link-color, 10%);
 $link-hover-decoration:				none;
 
 $component-active-color:    		#fff;
