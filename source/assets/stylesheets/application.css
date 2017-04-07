@@ -6139,8 +6139,7 @@ button,
 .btn-primary {
   background-color: #cd453d;
   border-color: #cd453d;
-  color: #000000;
-  text-transform: uppercase; }
+  color: #dad7c2; }
 
 .btn-default:hover,
 .btn-default:active,
@@ -6150,7 +6149,7 @@ button,
 .btn-primary:focus {
   background-color: #ab332c;
   border-color: #ab332c;
-  color: #000000; }
+  color: #dad7c2; }
 
 .btn-secondary,
 .btn-info {
@@ -6158,8 +6157,7 @@ button,
   border: 2px #cd453d solid;
   color: #cd453d;
   transition: 0.15s;
-  padding: 0.5rem 1rem;
-  text-transform: uppercase; }
+  padding: 0.5rem 1rem; }
 
 .btn-secondary:hover,
 .btn-secondary:active,
@@ -6174,8 +6172,7 @@ button,
 .btn-tertiary {
   background-color: transparent;
   border: 2px #cd453d solid;
-  color: #cd453d;
-  text-transform: uppercase; }
+  color: #cd453d; }
 
 .btn-tertiary:hover,
 .btn-tertiary:active,
@@ -6241,7 +6238,7 @@ button,
   background-color: #ffffff; }
 
 h1, h2, h3, h4, h5, h6 {
-  margin-top: 0px; }
+  margin-top: 2rem; }
 
 h1 {
   font-size: 41px;

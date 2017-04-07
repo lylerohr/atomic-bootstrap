@@ -31,7 +31,6 @@ button,
 	background-color: $btn-primary-bg;
 	border-color: $btn-primary-border;
 	color: $btn-primary-color;
-	text-transform: uppercase;
 }
 
 .btn-default:hover,
@@ -52,7 +51,6 @@ button,
 	color: $btn-default-color;
 	transition: $transition;
 	padding: $btn-padding-base;
-	text-transform: uppercase;
 }
 
 .btn-secondary:hover,
@@ -70,7 +68,6 @@ button,
 	background-color: $btn-tertiary-bg;
 	border: 2px $btn-tertiary-border solid;
 	color: $btn-tertiary-color;
-	text-transform: uppercase;
 }
 
 .btn-tertiary:hover,
